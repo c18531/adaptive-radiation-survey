@@ -33,10 +33,11 @@ In the simulation benchmark reported in the manuscript, the proposed adaptive de
 .
 ├── Radiological_Reconnaissance.py
 ├── raw_data/
-│   ├── zone_dxf/
-│   ├── survey_shp/
-│   ├── baseline_csv/
-│   └── vsp_csv/
+│   ├── Areas_dxf/
+│   ├── Areas_shp/
+│   ├── Areas_shx/
+│   ├── Case2_DXF/
+│   └── baseline_csv/
 ├── outputs/
 ├── paper/
 │   └── manuscript.pdf
@@ -67,10 +68,9 @@ pip install numpy pandas matplotlib scipy shapely geopandas scikit-learn
 
 The main script expects the following study inputs:
 
-- `--zone_dxf`: DXF contamination prior / warm-hot geometry (**required**)
-- `--survey_shp`: survey boundary shapefile (optional but recommended)
+- `--Case2_dxf`: DXF contamination prior / warm-hot geometry (**required**)
+- `--Areas_shp`: survey boundary shapefile (optional but recommended)
 - `--baseline_csv`: baseline station-plan CSV
-- `--vsp_csv`: optional VSP CSV for GP/VSP route-constrained experiments
 
 Optional shapefile companion paths (`--survey_shx`, `--survey_dbf`) can also be supplied when needed.
 
