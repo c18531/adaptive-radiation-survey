@@ -1,4 +1,4 @@
-# Forecast-informed adaptive radiation surveying with residual Gaussian process regression
+# Forecast-informed adaptive radiation surveying with residual Gaussian process regression for rapid radiological contamination assessment
 
 This repository provides the code and reproducibility workflow for the study:
 
