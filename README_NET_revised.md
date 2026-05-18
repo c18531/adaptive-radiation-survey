@@ -289,37 +289,54 @@ The script exports `mc_summary.csv`, which includes per-run `truth_has_hot`, `pr
 
 ## Data and code availability
 
-If all inputs can be shared publicly:
+The source code and reproducibility workflow supporting this study are provided in this repository for manuscript review and research reproducibility.
 
-> The data and code supporting the findings of this study are publicly available in this GitHub repository.
-
-If some original inputs cannot be redistributed:
-
-> The code and reproducibility workflow are publicly available in this GitHub repository. Shareable study inputs are provided under `raw_data/`. Restricted or non-public source files are described in this repository and are available from the corresponding author subject to institutional and security constraints.
+Shareable input files, example configurations, and representative output files are provided where redistribution is permitted. Some original source files, geospatial inputs, scenario configurations, or institutional datasets used in the manuscript may not be publicly redistributed because of organizational or security restrictions. These restricted inputs are described in the repository, and access may be requested from the corresponding author subject to institutional approval.
 
 ## Citation
 
-If this repository is associated with a publication, please cite both the journal article and the versioned repository release.
+If you use this repository, please cite the repository. A manuscript associated with this repository is currently under preparation/submission, and the final journal citation will be added after publication.
 
 ```bibtex
-@article{choi_adaptive_radiation_survey,
-  title   = {Forecast-informed adaptive radiation surveying with residual Gaussian process regression for rapid radiological contamination assessment},
-  author  = {Choi, Wooseok and Shin, Myeongsik and Kang, Ku},
-  journal = {Nuclear Engineering and Technology},
-  year    = {forthcoming}
+@software{choi_adaptive_radiation_survey_code,
+  title  = {Forecast-informed adaptive radiation surveying with residual Gaussian process regression},
+  author = {Choi, Wooseok and Shin, Myeongsik and Kang, Ku},
+  year   = {2026},
+  url    = {https://github.com/c18531/adaptive-radiation-survey},
+  note   = {Code repository}
 }
 ```
 
-## License
-
-Add the repository license here, for example:
-
-```text
-MIT License
+```bibtex
+@unpublished{choi_adaptive_radiation_survey_manuscript,
+  title  = {Forecast-informed adaptive radiation surveying with residual Gaussian process regression for rapid radiological contamination assessment},
+  author = {Choi, Wooseok and Shin, Myeongsik and Kang, Ku},
+  year   = {2026},
+  note   = {Manuscript under preparation/submission}
+}
 ```
 
-or specify institutional restrictions if the code or data cannot be fully redistributed.
+After publication, this section will be updated with the final journal citation.
+
+## License
+
+A repository license will be added after institutional and co-author review.
+
+Until a license is added, the source code is provided for manuscript review and reproducibility inspection only. Redistribution, modification, commercial use, or incorporation into other projects should not be assumed without written permission from the authors.
+
+Some input files, scenario configurations, geospatial data, or institutional datasets used in the manuscript may not be publicly redistributable because of organizational or security restrictions. Where possible, representative examples and command-line templates are provided to support reproducibility.
 
 ## Contact
 
-For questions regarding the manuscript or repository, please contact the corresponding author listed in the paper.
+For questions about the code, experiments, or manuscript, please contact:
+
+**Wooseok Choi**  
+Department of Nuclear and Quantum Engineering  
+Korea Advanced Institute of Science and Technology (KAIST)  
+Daejeon, Republic of Korea  
+
+**Corresponding author:**  
+**Ku Kang**  
+CBRN Defense Research Institute  
+Seoul, Republic of Korea  
+Email: bisu9082@gmail.com
