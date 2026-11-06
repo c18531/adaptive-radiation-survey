@@ -1,0 +1,25 @@
+FULL {'path_length_m': '3691.891±291.195', 'travel_time_min': '14.768±1.165', 'total_time_min': '97.768±1.165', 'hot_recall': '0.384±0.304', 'action_recall': '0.531±0.110', 'zone_accuracy': '0.570±0.076'} fatal 3
+NO_PATH n 25 fatal 0
+   path_length_m: 8726.357±983.570 (diff +5034.467, p=5.96e-08)
+   travel_time_min: 34.905±3.934 (diff +20.138, p=5.96e-08)
+   total_time_min: 117.905±3.934 (diff +20.138, p=5.96e-08)
+   hot_recall: 0.681±0.124 (diff +0.298, p=0.00124)
+   action_recall: 0.677±0.105 (diff +0.147, p=5.96e-07)
+   zone_accuracy: 0.691±0.064 (diff +0.121, p=8.34e-07)
+   FULL travel time shorter than NO_PATH by 57.7% of NO_PATH travel time; total time shorter by 17.1%
+NO_PRIOR n 25 fatal 3
+   path_length_m: 3749.087±252.593 (diff +57.197, p=0.0903)
+   travel_time_min: 14.996±1.010 (diff +0.229, p=0.0903)
+   total_time_min: 97.996±1.010 (diff +0.229, p=0.0903)
+   hot_recall: 0.427±0.277 (diff +0.043, p=0.59)
+   action_recall: 0.562±0.115 (diff +0.031, p=0.367)
+   zone_accuracy: 0.588±0.096 (diff +0.018, p=0.381)
+   FULL travel time shorter than NO_PRIOR by 1.5% of NO_PRIOR travel time; total time shorter by 0.2%
+NO_FORECAST n 25 fatal 3
+   path_length_m: 3862.873±282.465 (diff +170.983, p=0.00378)
+   travel_time_min: 15.451±1.130 (diff +0.684, p=0.00378)
+   total_time_min: 98.451±1.130 (diff +0.684, p=0.00378)
+   hot_recall: 0.433±0.297 (diff +0.049, p=0.693)
+   action_recall: 0.558±0.114 (diff +0.028, p=0.148)
+   zone_accuracy: 0.597±0.073 (diff +0.026, p=0.127)
+   FULL travel time shorter than NO_FORECAST by 4.4% of NO_FORECAST travel time; total time shorter by 0.7%

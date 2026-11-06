@@ -1,0 +1,7 @@
+=== puff_hot_b120: trials/design 25, truth has Hot 25
+  zone_accuracy: adapt 0.705±0.077 | base 0.831±0.027 | MWU p=2.57e-08 d=-2.18 cliff=-0.92
+  action_recall: adapt 0.680±0.128 | base 0.830±0.048 | MWU p=4.26e-06 d=-1.56 cliff=-0.76
+  n_used: adapt 120.000±0.000 | base 456.160±11.954 | MWU p=9.09e-11 d=-39.77 cliff=-1.00
+  total_time_min: adapt 139.691±1.177 | base 597.587±12.241 | MWU p=1.41e-09 d=-52.66 cliff=-1.00
+  hot_recall (n=25): adapt 0.555±0.324 | base 0.780±0.099 | Wilcoxon p=1.45e-03 | boot95 diff [-0.355,-0.108]
+  fatal miss: adapt 3/25 CP95 0.025-0.312 | base 0/25 | Fisher p=0.235

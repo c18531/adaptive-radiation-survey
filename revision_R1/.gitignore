@@ -1,0 +1,4 @@
+work/
+data_kamenna/
+*.pkl
+__pycache__/

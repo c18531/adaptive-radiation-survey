@@ -1,0 +1,14 @@
+=== puff_hot: trials/design 25, truth has Hot 25
+  zone_accuracy: adapt 0.570±0.076 | base 0.831±0.027 | MWU p=1.42e-09 d=-4.55 cliff=-1.00
+  action_recall: adapt 0.531±0.110 | base 0.830±0.048 | MWU p=1.42e-09 d=-3.52 cliff=-1.00
+  n_used: adapt 83.000±0.000 | base 456.160±11.954 | MWU p=9.09e-11 d=-44.15 cliff=-1.00
+  total_time_min: adapt 97.768±1.165 | base 597.587±12.241 | MWU p=1.41e-09 d=-57.48 cliff=-1.00
+  hot_recall (n=25): adapt 0.384±0.304 | base 0.780±0.099 | Wilcoxon p=8.34e-07 | boot95 diff [-0.516,-0.281]
+  fatal miss: adapt 3/25 CP95 0.025-0.312 | base 0/25 | Fisher p=0.235
+=== none_hot: trials/design 25, truth has Hot 25
+  zone_accuracy: adapt 0.597±0.073 | base 0.841±0.025 | MWU p=1.42e-09 d=-4.48 cliff=-1.00
+  action_recall: adapt 0.558±0.114 | base 0.842±0.042 | MWU p=1.42e-09 d=-3.30 cliff=-1.00
+  n_used: adapt 83.000±0.000 | base 456.160±11.954 | MWU p=9.09e-11 d=-44.15 cliff=-1.00
+  total_time_min: adapt 98.451±1.130 | base 597.587±12.241 | MWU p=1.41e-09 d=-57.42 cliff=-1.00
+  hot_recall (n=25): adapt 0.433±0.297 | base 0.797±0.093 | Wilcoxon p=1.97e-06 | boot95 diff [-0.481,-0.252]
+  fatal miss: adapt 3/25 CP95 0.025-0.312 | base 0/25 | Fisher p=0.235
